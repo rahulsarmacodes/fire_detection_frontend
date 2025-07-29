@@ -43,7 +43,7 @@ const WebcamCapture = ({ setServerStatus }) => {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col justify-center items-center bg-white relative">
+    <div className="flex flex-col justify-center items-center bg-white relative">
       <div className="flex flex-col items-center relative">
         <Webcam
           ref={webcamRef}
