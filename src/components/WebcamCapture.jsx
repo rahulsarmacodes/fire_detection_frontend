@@ -56,6 +56,7 @@ const WebcamCapture = ({ setServerStatus }) => {
           <div className="mt-6 text-black text-center">
             <p className="text-2xl font-bold">Prediction: {result.class_name}</p>
             <p>Confidence: {result.confidence}</p>
+            <h1 className="text-red-600 font-semibold">A confidence score higher than 0.5 indicates that fire is detected in the frame</h1>
           </div>
         )}
       </div>
